@@ -82,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07812E341986D2A700407FBC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				079AD3501986C11500334434 /* BPDMasterViewController.h */,
+				079AD3511986C11500334434 /* BPDMasterViewController.m */,
+				079AD3531986C11500334434 /* BPDDetailViewController.h */,
+				079AD3541986C11500334434 /* BPDDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		07812E351986D33800407FBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				079AD34D1986C11500334434 /* Main.storyboard */,
+				079AD3561986C11500334434 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		079AD32F1986C11500334434 = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +137,8 @@
 			children = (
 				079AD34A1986C11500334434 /* BPDAppDelegate.h */,
 				079AD34B1986C11500334434 /* BPDAppDelegate.m */,
-				079AD34D1986C11500334434 /* Main.storyboard */,
-				079AD3501986C11500334434 /* BPDMasterViewController.h */,
-				079AD3511986C11500334434 /* BPDMasterViewController.m */,
-				079AD3531986C11500334434 /* BPDDetailViewController.h */,
-				079AD3541986C11500334434 /* BPDDetailViewController.m */,
-				079AD3561986C11500334434 /* Images.xcassets */,
+				07812E351986D33800407FBC /* Resources */,
+				07812E341986D2A700407FBC /* View Controllers */,
 				079AD3421986C11500334434 /* Supporting Files */,
 			);
 			path = ControleSource;
@@ -463,6 +479,7 @@
 				079AD36F1986C11500334434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		079AD3701986C11500334434 /* Build configuration list for PBXNativeTarget "ControleSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				079AD3721986C11500334434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
